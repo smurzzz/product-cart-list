@@ -17,7 +17,7 @@ const Modal = ({ isOpen, onConfirm }) => {
   return (
     <div className="modal-overlay">
       <div className="p-8 drop-shadow-xl rounded-xl bg-white w-[600px] max-h-[90vh] overflow-y-auto">
-        <img src={checkIcon} />
+        <img alt="image" src={checkIcon} />
         <div className="mt-5">
           <p className="font-[700] text-4xl">Order Confirmed</p>
           <p className="mt-2 text-Rose500">We hope you enjoy your food!</p>

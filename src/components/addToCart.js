@@ -47,7 +47,7 @@ const AddToCart = ({ handleOpenModal }) => {
           </div>
 
           <div className="w-full p-5 bg-Rose50 rounded-xl flex gap-3 items-center justify-center">
-            <img src={carbon} />
+            <img alt="image" src={carbon} />
             <p className="text-Rose900 font-[500]">
               This is a <span className="font-[600] ">carbon-neutral</span>{" "}
               delivery

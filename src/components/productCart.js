@@ -75,6 +75,7 @@ const ProductCart = (props) => {
       <div className="relative">
         <Link to={slug}>
           <img
+            alt="image"
             src={sizeImage}
             className={`rounded-xl ${
               cartItem && cartItem.isToggled
