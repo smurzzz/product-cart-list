@@ -75,7 +75,7 @@ const ProductCart = (props) => {
       <div className="relative">
         <Link to={slug}>
           <img
-            alt="image"
+            alt="photo"
             src={sizeImage}
             className={`rounded-xl ${
               cartItem && cartItem.isToggled
@@ -124,7 +124,7 @@ const ProductCart = (props) => {
               className="bg-white flex items-center justify-center gap-3 w-[200px] rounded-full h-[60px] px-5 border-Rose500 border duration-500 hover:text-Red text-Rose900 hover:border-red-500"
               onClick={handleAddToCart}
             >
-              <img src={iconCart} />
+              <img src={iconCart} alt="photo" />
               <p className="font-[500]">Add to cart</p>
             </button>
           )}
