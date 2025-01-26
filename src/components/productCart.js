@@ -62,13 +62,13 @@ const ProductCart = (props) => {
 
   useEffect(() => {
     const resizePicture = () => {
-      setSizeImage(handleSizePicture);
+      setSizeImage(handleSizePicture());
     };
 
     window.addEventListener("resize", resizePicture);
 
     return () => window.removeEventListener("resize", resizePicture);
-  }, []);
+  }, [handleSizePicture]);
 
   return (
     <div className="drop-shadow-xl">

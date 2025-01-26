@@ -30,7 +30,8 @@ const AddToCart = ({ handleOpenModal }) => {
         carts.map((item, key) => <ProductItem key={key} data={item} />)
       ) : (
         <div className="w-full flex mt-10 items-center flex-col gap-5 justify-center">
-          <img src={emptyItem} alt="Empty Cart" />
+          <img src={emptyItem} alt="Illustration of an empty shopping cart" />
+
           <p className="text-Rose500 font-[600]">
             Your added items will appear here
           </p>
